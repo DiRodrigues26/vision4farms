@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "372728249865",
+    "project_id": "vision4farms-app",
+    "storage_bucket": "vision4farms-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372728249865:android:c6409d6d869cdbabe242d8",
+        "android_client_info": {
+          "package_name": "com.vision4farms.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9WoOAOT0GAfpEi0AbcuEcBDRaoIC9vkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

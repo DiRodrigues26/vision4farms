@@ -1,0 +1,58 @@
+# ─────────────────────────────────────────────
+# Monorepo Vision4Farms — backend (Django) + app (Flutter)
+# ─────────────────────────────────────────────
+
+# ── Python / Django (backend) ──
+venv/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+db.sqlite3
+vision4farms_api/media/
+vision4farms_api/staticfiles/
+
+# ⚠️ Segredos — NUNCA commitar
+vision4farms_api/firebase-service-account.json
+**/*-firebase-adminsdk-*.json
+
+# ── Flutter / Dart (app) ──
+vision4farms_app/build/
+vision4farms_app/.dart_tool/
+vision4farms_app/.flutter-plugins
+vision4farms_app/.flutter-plugins-dependencies
+vision4farms_app/.pub-cache/
+vision4farms_app/.pub/
+**/doc/api/
+app.*.symbols
+app.*.map.json
+vision4farms_app/android/app/debug/
+vision4farms_app/android/app/profile/
+vision4farms_app/android/app/release/
+
+# ── IDEs ──
+.idea/
+*.iml
+*.iws
+.vscode/
+
+# ── Sistema ──
+.DS_Store
+*.log
+*.swp
+
+# ── Ferramentas de IA (não publicar) ──
+CLAUDE.md
+.claude/
+AGENTS.md
+.codex/
+.cursor/
+.aider*
+.github/copilot-instructions.md
+*.diff
+codex-*.diff
+
+# ── Ficheiros temporários ──
+*_extracted.txt
+fix_passwords.py
